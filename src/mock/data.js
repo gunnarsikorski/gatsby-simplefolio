@@ -60,6 +60,16 @@ export const projectsData = [
     url: 'https://pure-sierra-61007.herokuapp.com/legos/',
     repo: 'https://github.com/gunnarsikorski/legos', // if no repo, the button will not show up
   },
+  {
+    id: nanoid(),
+    img: 'fruitbowl.png',
+    title: 'Fruitbowl',
+    info:
+      'While my peers worked on the front-end, where I helped on occassion, I built this back-end with Node.js using Express, including a tip schema to be used for front-end where the user chooses a fruit to find a quick tip concerning one category of health and can read more about that tip with a linked article',
+    info2: '',
+    url: 'https://fruitbowl-wellness-app.herokuapp.com/',
+    repo: 'https://github.com/jdephil/fruit-bowl-backend', // if no repo, the button will not show up
+  },
 ];
 
 // CONTACT DATA
